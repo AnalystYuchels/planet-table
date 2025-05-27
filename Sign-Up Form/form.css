@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-/* Example usage */
-body {
-  font-family: 'Roboto', sans-serif;
+@font-face {
+  font-family: myFont;
+  src: url(norse-bold.otf);
 }
 
+.side-bar {
+  width: 350px;
+  height: 650px;
+}
