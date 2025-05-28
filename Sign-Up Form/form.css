@@ -11,12 +11,12 @@
   padding: 0;
 }
 
-body{
+body {
   font-family: Arial, sans-serif;
   background-color: #eee;
 }
 
-.main-container{
+.main-container {
   height: 100vh;
   display: flex;
 }
@@ -26,8 +26,9 @@ body{
   height: 100vh;
   background: url(tree.jpg) center center/cover no-repeat;
   position: relative;
+}
 
-.overlay{
+.overlay {
   height: 110px;
   margin-top: 150px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -49,12 +50,13 @@ body{
   font-weight: lighter;
   font-size: 12px;
   color: #bbb;
-  position: relative;
+  position: absolute;
   text-align: center;
-  bottom: 10px;
+  bottom: 20px;
+  left: 30%;
 }
 
-.sub-container{
+.sub-container {
   width: 65%;
   display: flex;
   flex-direction: column;
