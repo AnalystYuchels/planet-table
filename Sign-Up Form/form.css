@@ -8,6 +8,9 @@
 body{
   font-family: serif;
   background-color: #eee;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .main-container{
@@ -52,7 +55,7 @@ body{
 
 .intro {
   width: 600px;
-  margin: 30px;
+  margin: 90px 35px 30px;
   font-size: 1.3rem;
   line-height: 1.3em;
 }
@@ -84,7 +87,7 @@ legend {
 button {
   width: 200px;
   padding: 13px 30px;
-  margin: 30px 30px 10px;
+  margin: 30px 35px 10px;
   background-color: #596D48;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
   border: none;
@@ -95,8 +98,9 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
 .log-in {
-  margin-left: 30px;
+  margin-left: 35px;
   color: #525353;
   font-size: 16px;
   font-weight: 550;
