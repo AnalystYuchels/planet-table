@@ -10,32 +10,64 @@
 </head>
 
 <body>
-  <div class="side-bar">
-    <img src="tree.jpg" alt="Photo of a tree from unsplash.com" class="side-bar">
-    <div class="overlay">
-      <img src="odin-lined.png" alt="Odin Logo">
-      <h1>ODIN</h1>
-    </div>
-  </div>
-
-  <div class="container">
-    <h1>Sign Up</h1>
-    <form action="#" method="post">
-      <div class="input-group">
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" required>
+  <div class="main-container">
+    <div class="side-bar">
+      <div class="overlay">
+        <img src="odin-lined.png" alt="Odin Logo" width="85px" height="110px">
+        <span class="logo-text">ODIN</span>
       </div>
+      <p class="photo-credit">Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank" style="color: #bbb;">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank" style="color: #bbb;"> Unspalsh</a></p>
+    </div>
+  
+
+  <div class="sub-container">
+    <p class="intro">We’re so glad you found us. If you’ve been waiting for a little <em>nudge</em> to join something fun, helpful, and full of good vibes — this is it! <br> <br><em>Sign up</em> today and let’s start this awesome journey together.</p>
+  
+
+    <form action="#" method="post"></form>
+    <div class="form-table">
+      <div><legend>Let's do this!</legend></div>
+
       <div class="input-group">
-        <label for="email">Email</label>
+        <label for="first_name">FIRST NAME</label>
+        <input type="text" id="first_name" name="username" required>
+      </div>
+
+      <div class="input-group">
+        <label for="last_name">LAST NAME</label>
+        <input type="text" id="last_name" name="username" required>
+      </div>
+
+      <div class="input-group">
+        <label for="email">EMAIL</label>
         <input type="email" id="email" name="email" required>
       </div>
+
       <div class="input-group">
-        <label for="password">Password</label>
+        <label for="phone_number">PHONE NUMBER</label>
+        <input type="number" id="phone_number" name="phone" required>
+      </div>
+
+      <div class="input-group">
+        <label for="password">PASSWORD</label>
         <input type="password" id="password" name="password" required>
       </div>
-      <button type="submit">Sign Up</button>
-    </form>
+
+      <div class="input-group">
+        <label for="password">CONFIRM PASSWORD</label>
+        <input type="password" id="password" name="password" required>
+      </div>
   </div>
+
+  </form>
+    <button type="submit">Create Account</button>
+    <p class="log-in">Already have an account? <span>Log in</span></p>
+
+  </div>
+
+  </div>
+</div>
   
+  </div>
 </body>
 </html>
