@@ -1,6 +1,6 @@
 @font-face {
   font-family: myFont;
-  src: url(norse-bold.otf);
+  src: url(font/norse-bold.otf);
   font-weight: bold;
   font-style: normal;
 }
@@ -24,7 +24,7 @@ body {
 .side-bar {
   width: 35%;
   height: 100vh;
-  background: url(tree.jpg) center center/cover no-repeat;
+  background: url(images/tree.jpg) center center/cover no-repeat;
   position: relative;
 }
 
